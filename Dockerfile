@@ -1,3 +1,4 @@
 FROM golang:alpine
-MAINTAINER WizJin <wizjin@@users.noreply.github.com>
-RUN apk add --update --no-cache git
+MAINTAINER WizJin <wizjin@users.noreply.github.com>
+RUN apk add --update --no-cache git \
+  && go get github.com/wadey/gocovmerge
