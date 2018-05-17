@@ -5,4 +5,5 @@ RUN apk add --update --no-cache git make findutils gcc musl-dev \
   && go get github.com/spf13/cobra \
   && go get golang.org/x/sys/unix \
   && go get golang.org/x/text/transform \
-  && go get golang.org/x/text/unicode
+  && go get golang.org/x/text/unicode \
+  && go get golang.org/x/crypto
