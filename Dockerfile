@@ -5,6 +5,8 @@ RUN apk add --update --no-cache git make findutils gcc musl-dev \
   && go get github.com/globalsign/mgo \
   && go get github.com/spf13/cobra \
   && go get github.com/spf13/viper \
+  && go get github.com/gorilla/mux \
+  && go get github.com/coreos/etcd \
   && go get golang.org/x/sys/unix \
   && go get golang.org/x/text/transform \
   && go get golang.org/x/text/unicode \
