@@ -12,4 +12,5 @@ RUN apk add --update --no-cache git make findutils gcc musl-dev \
   && go get golang.org/x/text/transform \
   && go get golang.org/x/text/unicode \
   && go get golang.org/x/crypto/openpgp \
+  && go get golang.org/x/crypto/bcrypt \
   && go get golang.org/x/crypto/...
