@@ -9,6 +9,7 @@ RUN apk add --update --no-cache git make findutils gcc musl-dev \
   && go get github.com/mitchellh/go-homedir \
   && go get github.com/gin-gonic/gin \
   && go get github.com/gorilla/mux \
+  && go get github.com/gin-gonic/gin \
   && go get golang.org/x/sys/unix \
   && go get golang.org/x/text/transform \
   && go get golang.org/x/text/unicode \
