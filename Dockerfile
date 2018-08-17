@@ -13,6 +13,7 @@ RUN apk add --update --no-cache git make findutils gcc musl-dev \
   && go get github.com/ugorji/go/codec \
   && go get github.com/mattn/go-isatty \
   && go get gopkg.in/go-playground/validator.v8 \
+  && go get github.com/graphql-go/graphql \
   && go get github.com/360EntSecGroup-Skylar/excelize \
   && go get golang.org/x/sys/unix \
   && go get golang.org/x/text/transform \
